@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+a{
+    text-decoration: none;
+}
+.contenedor {
+    width: 1366px;
+    height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav{
+    background-color: #cbb9af;
+    display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+    width: 1366px;
+    margin-top: 0%;
+}
+
+.principal_menu {
+    width: 33%;
+    background-color: #cbb9af;
+}
+
+.menu{
+    width: 20%;
+}
+
+.kinky{
+	width: 80%;
+}
+
+
+.logos{
+    display: inline-block;
+}
+.sublogo {
+    margin: 0 1rem;
+    width: 10%;
+    height: 138px;
+    background-color: #cbb9af;
+}
+
+
+
+.second{
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    color: white;
+    background-color: #e36d13;
+    margin: 0rem 0.3rem;
+    font-size: 1.2rem;
+    padding: 0.9rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: #e2c0a6; 
+}
+.buscador {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+    align-items: center;
+    border: solid 1px  #e36d13;
+    border-radius: 0.5rem;
+    width: 20%;
+    margin-left: 1rem;
+    
+    
+}
+.lupa{
+    width: 7%;
+}
+.micro{
+    width: 7%;
+    margin-right: 0;
+}
+
+.in{
+    font-size: 1rem;
+    outline: none;
+}
+.dudas{
+    border: 1px solid black;
+    margin: 4rem 15rem 0;
+    padding: 1rem;
+    text-align: center;
+}
+.senbar{
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    padding: 0.5rem;
+    width: 80%;
+}
+.alo{
+    width:  80%;
+    outline: none;
+}
+
+.cam{
+    width: 3%;
+    margin-left: 3%;
+}
+.enviar{
+    width: 3%;
+    margin-left: 10%;
+}
+.scict{
+    justify-content: center;
+}
+.con{
+    margin-bottom: 0;
+    font-size: 1.2rem;
+}
+.cabello{
+    margin: 2rem 8rem;
+}
+.boxmaster{
+    background-color: #e36d13;
+    color: white;
+    font-size: 2.5rem;
+    padding: 0.4rem;
+    text-align: center;
+    margin:0 40%;
+    border-radius: 0.25rem;
+}
+.sm{
+    margin-top: 0;
+}
+.boxr{
+    font-size: 2rem;
+    font-weight: 100;
+    background-color: rgba(210, 194, 158, 30%);
+    border: 0;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.boxr:hover{
+    background-color: #cbb9af;
+}
+.disf{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 10%;
+}
+
+.seleccion{
+    color: white;
+    background-color: #cbb9af;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin: 1rem 35%;
+    border-radius: 0.5rem;
+
+}
+.ofer{
+    text-align:center;
+    color: #e36d13;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 1rem;
+}
+
+.ideas{
+    display: flex;
+    margin:0  10%;
+}
+.ideas iframe{
+    margin: 1rem;
+}
+.secmap iframe{
+    
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+}
+.socialMedia{
+    color: white;
+    margin: 10px;
+}
+.helper{
+    width: 30px;
+}
+footer div{
+    display: flex;
+    align-items: center;
+    
+}
+footer{
+    background-color: #3d3836;
+    display: flex;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+footer section{
+    margin-left: 9%;
+}
+.logo2{
+    margin-top: 15%;
+    margin-left: 225%;
+    width: 30%;
+}
+.copy{
+    text-align: center;
+    background-color: #e36d13;
+    padding: 0.05rem;
+}
+.publicidad{
+    margin: 0 10%;
+}
+
+
+
+
+
+
+.display_flex{
+    display: flex;
+}
+.dfcenter{
+    justify-content: center;
+}
+.sinBorde{
+    border: 0;
+}
